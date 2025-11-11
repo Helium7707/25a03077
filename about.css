@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(to right,#141E30,#243B55);
+    color: rgba(184, 182, 182, 0.788);
+    font-family:poppins;
+    height: 800px;
+}
+.navs{
+    display:flex;
+    font-family: inherit;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    margin-top: 20px;
+    animation: navss 1s;
+}
+@keyframes navss{
+    from{
+        opacity: 0;
+        transform: translateY(-50px) scale(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+.navs a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navs a:hover{
+    opacity: 0.3;
+}
+.Country{
+    display: flex;
+    flex-direction: row;
+    margin:30px;
+    align-items: center;
+    gap: 200px;
+}
+.emblem{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+@keyframes left-right{
+    from{
+        opacity: 0;
+        transform: translateX(-100px) scale(0.2);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
+#emblem{
+    width: 300px;
+    animation: left-right 1s; 
+}
+.info{
+    color: white;
+    line-height: 50px;
+    font-size: larger; 
+    animation: left-right 1s;
+}

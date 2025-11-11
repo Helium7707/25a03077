@@ -1,0 +1,76 @@
+body{
+    background-image: linear-gradient(to right,#141E30,#243B55);
+    color: rgba(184, 182, 182, 0.788);
+    font-family:poppins;
+    height: 800px;
+}
+.navs{
+    display:flex;
+    font-family: inherit;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    margin-top: 20px;
+    animation: navss 1s;
+}
+@keyframes navss{
+    from{
+        opacity: 0;
+        transform: translateY(-50px) scale(0.5);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+.navs a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navs a:hover{
+    opacity: 0.3;
+}
+.music_store{
+    display: flex;
+    flex-direction: row;
+    gap:120px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.info_{
+    color: white;
+    width: 400px;
+    line-height: 50px;
+    animation: pop 1s;
+}
+@keyframes pop{
+    from{
+        transform: scale(0.1);
+    }
+    to{
+        transform:scale(1);
+    }
+}
+.store_img{
+    animation:left-right 1s;
+}
+@keyframes left-right{
+    from{
+        opacity: 0;
+        transform: translateX(-200px) scale(0.7);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px) scale(1);
+    }
+}
+.chrome{
+    display: flex;
+    flex-direction: row;
+    gap:270px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 140px;
+}
