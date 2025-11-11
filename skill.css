@@ -1,8 +1,8 @@
 body{
-    background-image: linear-gradient(to right,#141E30,#243B55);
+    background-image: linear-gradient(to bottom,#141E30,#243B55);
     color: rgba(184, 182, 182, 0.788);
     font-family:poppins;
-    height: 800px;
+    height: 100vh;
 }
 .navs{
     display:flex;
