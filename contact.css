@@ -1,12 +1,8 @@
 body{
-    background-image: url("gradient.jpg");
-    background-color: #141E30;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
+    background-image: linear-gradient(to right,#141E30,#243B55);
     color: rgba(184, 182, 182, 0.788);
     font-family:poppins;
-    margin-top: 0px;
+    height: 800px;
 }
 .navs{
     display:flex;
